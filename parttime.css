@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #004080;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 50px;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+header ul li a:hover {
+    background-color: #002050;
+    border-radius: 5px;
+}
+
+/* Main Content Styles */
+div {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    color: #004080;
+    text-align: center;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+th, td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#courseLevel{
+    border-bottom: 2px solid #004080;
+}
+
+th {
+    background-color: #004080;
+    color: white;
+}
+
+.courseLevel {
+    font-weight: bold;
+    text-align: center;
+    background-color: #e0e0e0;
+}
+
+
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004080;
+    color: white;
+    margin-top: 20px;
+}
+
+footer img {
+    height: 30px;
+    margin: 0 10px;
+}

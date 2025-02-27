@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #004080;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    text-align: center;
+}
+
+header img {
+    height: 50px;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 15px;
+    transition: background 0.3s ease;
+}
+
+header ul li a:hover {
+    background-color: #002050;
+    border-radius: 5px;
+}
+
+td img{
+    width:100%;
+}
+
+/* Main Content Styles */
+div {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+table img {
+    width: 100%; /* Make images responsive */
+    max-width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Highlight Headers */
+td strong {
+    font-size: 18px;
+    color: #004080;
+}
+
+td em {
+    color: #666;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004080;
+    color: white;
+    margin-top: 20px;
+}
+
+footer img {
+    height: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
+
